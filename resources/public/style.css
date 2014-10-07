@@ -61,8 +61,7 @@
     height: 17px;
     background-color: #01313f;
     font-size: 17px;
-    font-family: 'Monaco', 'Menlo', 'Ubuntu Mono', 'Consolas',
-        'source-code-pro', monospace;
+    font-family: monospace, monospace;
     color: #d0edf7;
     z-index: 10;
 }
@@ -73,8 +72,7 @@ body {
 h2 {
     position: absolute;
     left: 40px;
-    font-family: 'Monaco', 'Menlo', 'Ubuntu Mono', 'Consolas',
-        'source-code-pro', monospace;
+    font-family: monospace, monospace;
     color: #93A1A1;
 }
 
