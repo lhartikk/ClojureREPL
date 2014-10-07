@@ -3,7 +3,7 @@
 Web based clojure instaREPL.
 
 
-###[clojurerepl.com](clojurerepl.com)
+###[clojurerepl.com](http://clojurerepl.com)
 
 Building:
 
