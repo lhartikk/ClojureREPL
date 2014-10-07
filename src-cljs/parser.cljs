@@ -5,7 +5,7 @@
   )
 
 
-(defn cat_two_first[array]
+(defn cat-two-first[array]
   (conj (rest (rest array)) (clojure.string/join [(first array) (second array)] ))
 )
 
@@ -26,7 +26,7 @@
   (let [first-char (str (first (first array)))]
 
    (if (skippable-char? first-char)
-    (cat_two_first array)
+    (cat-two-first array)
     array
     )
   )
