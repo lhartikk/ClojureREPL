@@ -50,8 +50,7 @@
     color: gray;
     color: #d0edf7;
     height: 25px;
-    font-family: 'Monaco', 'Menlo', 'Ubuntu Mono', 'Consolas',
-        'source-code-pro', monospace;
+    font-family: monospace, monospace;
     border: 1px solid;
     border-radius: 5px;
 }
