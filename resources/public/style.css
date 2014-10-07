@@ -1,0 +1,88 @@
+#editor {
+    position: absolute;
+    top: 80px;
+    height: 440px;
+    left: 0px;
+    right: 0px;
+    font-size: 17px;
+}
+
+.ace_editor {
+    font-family: monospace, monospace !important;
+}
+
+#errorBar {
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    left: 10px;
+    bottom: 10px;
+    height: 20px;
+    line-height: 25px;
+    background-color: #002B36;
+    color: #d0edf7;
+    height: 25px;
+    font-family: monospace, monospace;
+    border: 1px solid;
+    border-radius: 5px;
+
+}
+
+#errorText {
+  border-width:0px;
+  border:none;
+  color: #d0edf7;
+  font-family: monospace, monospace;
+  background-color: #002B36;
+  width:100%;
+}
+
+#statusBar {
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    height: 20px;
+    width: 140px;
+    line-height: 25px;
+    background-color: #002B36;
+    color: gray;
+    color: #d0edf7;
+    height: 25px;
+    font-family: 'Monaco', 'Menlo', 'Ubuntu Mono', 'Consolas',
+        'source-code-pro', monospace;
+    border: 1px solid;
+    border-radius: 5px;
+}
+
+.info {
+    position: absolute;
+    top: 80px;
+    height: 17px;
+    background-color: #01313f;
+    font-size: 17px;
+    font-family: 'Monaco', 'Menlo', 'Ubuntu Mono', 'Consolas',
+        'source-code-pro', monospace;
+    color: #d0edf7;
+    z-index: 10;
+}
+
+body {
+    background-color: #002B36;
+}
+h2 {
+    position: absolute;
+    left: 40px;
+    font-family: 'Monaco', 'Menlo', 'Ubuntu Mono', 'Consolas',
+        'source-code-pro', monospace;
+    color: #93A1A1;
+}
+
+a {
+    color: #93A1A1;
+}
+
+small {
+    font-size: 10px;
+}
