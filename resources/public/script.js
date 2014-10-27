@@ -100,6 +100,13 @@ function createExpression(locations){
   return "[" + editor.getValue() + "]"
 }
 
+var escapeEl = document.createElement('textarea');
+
+function escapeHTML(html) {
+  escapeEl.textContent = html;
+  return escapeEl.innerHTML;
+}
+
 function compile() {
     var code = editor.getValue()
     var locations = parser.get_print_locations(code)
@@ -127,7 +134,7 @@ function compile() {
             results.forEach(function(result, i) {
                 jQuery('<div/>', {
                     class: 'info',
-                    text: result,
+                    innerHTML: escapeHTML(result).replace(/ /g, "&nbsp;"),
                     row: locations[i][1]
                  })
                 .css('left', EDITOR_LEFT + (locations[i][0] + lineIndent) * FONT_HORIZONTAL_SIZE + 'px')
