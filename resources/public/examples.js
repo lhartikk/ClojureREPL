@@ -17,42 +17,32 @@ var E1 =
 (defn is_div_3or5?[x]\n\
  (or\n\
   (zero? (mod x 3)) \n\
-  (zero? (mod x 5)) \n\
-  )\n\
-)\n\
+  (zero? (mod x 5))))\n\
 \n\
 \n\
 \n\
 (reduce +\n\
   (filter is_div_3or5?\n\
-    (range 1000)\n\
-  )\n\
-)\n\
+    (range 1000)))\n\
 "
 
 var E2="\n\
 (defn fib[a b]\n\
-  (lazy-cat (cons a (fib b (+ a b)))\n\
-  )\n\
-)\n\
+  (lazy-cat (cons a (fib b (+ a b)))))\n\
 \n\
 \n\
 (reduce +\n\
   (filter even?\n\
-    (take-while #(< % 4000000 ) (fib 1 1))\n\
-  )\n\
-)\n\
+    (take-while #(< % 4000000 ) (fib 1 1))))\n\
 "
 
 var TSERS =
 "\
 (defn tsers?[s]\n\
-  (= s \"tsers\")\n\
-)\n\
+  (= s \"tsers\"))\n\
 \n\
 (map tsers?\n\
-  (repeat 10 \"tsers\")\n\
-)\n\
+  (repeat 10 \"tsers\"))\n\
 "
 
 function qsort(){
