@@ -1,9 +1,9 @@
-#ClojureREPL
+# ClojureREPL
 
 Web based clojure instaREPL.
 
 
-###[clojurerepl.com](http://clojurerepl.com)
+### [clojurerepl.herokuapp.com](http://clojurerepl.herokuapp.com)
 
 Building:
 
